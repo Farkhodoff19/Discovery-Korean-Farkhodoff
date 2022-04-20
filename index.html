@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Discover Korea</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e817da4ca7.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body data-spy="scroll" data-target="nav .navbar" data-offset="50">
+
+<!-- Navigation -->
+
+<nav>
+    <div class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <a href="#" class="navbar-brand text-white">
+            <img src="assets/icon.png" alt="logo" class="logo">
+            <span class="bg-light text-dark px-2"> Discover</span> Korea
+        </a>
+
+        <button class="navbar-toggler show" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse scrollNav justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#highlights" class="nav-link text-white link mx-2">Highlights</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#food-drinks" class="nav-link text-white link mx-2">Popular food & drinks</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#interesting-facts" class="nav-link text-white link mx-2">Interesting facts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#numbers" class="nav-link text-white link mx-2">Korea in numbers</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#entertainment" class="nav-link text-white link mx-2">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#newsletter" class="nav-link text-white link mx-2">Newsletter</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Header's carousel -->
+
+<header id="header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col description align-self-center">
+                <h1 class="display-1"> <strong class="bg-light text-dark px-2">Discover</strong> Korea</h1>
+                <p class="w-50">Experience the extraordinary atmosphere of South Korea,
+                    a beautiful country, whose landscapes enchant with incomparable beauty, an unique cuisine surprises with
+                    original flavours and cities attracts tourist from all over the world.</p>
+            </div>
+
+            <div id="south-korea" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#south-korea" data-slide-to="0" class="active"></li>
+                    <li data-target="#south-korea" data-slide-to="1"></li>
+                    <li data-target="#south-korea" data-slide-to="2"></li>
+                    <li data-target="#south-korea" data-slide-to="3"></li>
+                </ul>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/background-1.jpg" alt="slide-1" class="w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/background-2.jpg" alt="slide-2" class="w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/background-3.jpg" alt="slide-3" class="w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/background-4.jpg" alt="slide-4" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Highlights -->
+
+<section id="highlights" class="highlights bg-white">
+    <div class="container bg-light shadow my-5">
+        <div class="highlights-container row py-5 px-3 border">
+            <div class="col-lg-3 col-md-4 px-lg-5">
+                <div class="nav flex-column nav-pills nav-pills-custom" id="korea-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link mb-3 p-4 shadow active" id="korea-pills-tab-1" data-toggle="pill" href="#korea-pills-1" role="tab" aria-controls="korea-pills-1" aria-selected="true">
+                        <span class="small text-uppercase">Gyeongbokgung Palace</span></a>
+                    <a class="nav-link mb-3 p-4 shadow" id="korea-pills-tab-2" data-toggle="pill" href="#korea-pills-2" role="tab" aria-controls="korea-pills-2" aria-selected="false">
+                        <span class="small text-uppercase">Bukchon Hanok Village</span></a>
+                    <a class="nav-link mb-3 p-4 shadow" id="korea-pills-tab-3" data-toggle="pill" href="#korea-pills-3" role="tab" aria-controls="korea-pills-3" aria-selected="false">
+                        <span class="small text-uppercase">Myeongdong</span></a>
+                    <a class="nav-link mb-3 p-4 shadow" id="korea-pills-tab-4" data-toggle="pill" href="#korea-pills-4" role="tab" aria-controls="korea-pills-4" aria-selected="false">
+                        <span class="small text-uppercase">Seongsan Sunrise Peak</span></a>
+                    <a class="nav-link mb-3 p-4 shadow" id="korea-pills-tab-5" data-toggle="pill" href="#korea-pills-5" role="tab" aria-controls="korea-pills-5" aria-selected="false">
+                        <span class="small text-uppercase">Namsan Seoul Tower</span></a>
+                    <a class="nav-link mb-3 p-4 shadow" id="korea-pills-tab-6" data-toggle="pill" href="#korea-pills-6" role="tab" aria-controls="korea-pills-6" aria-selected="false">
+                        <span class="small text-uppercase">Busan</span></a>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-8 px-3">
+                <div class="tab-content h-100" id="v-pills-tabContent">
+                    <div class="tab-pane fade rounded show active p-4 h-100" id="korea-pills-1" role="tabpanel" aria-labelledby="korea-pills-tab-1">
+                        <h4 class="text-dark px-2 pb-5"><span class="bg-dark text-white px-2">Gyeongbokgung</span>  Palace</h4>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-8">
+                                <img src="assets/photo-1.jpg" alt="highlights1" class="w-100 rounded img-thumbnail">
+                            </div>
+                            <div class="col-md-12 col-lg-4 m-lg-0 m-3">
+                                <p class="text-dark font-italic"> Gyeongbokgung Palace was the main legal residence of
+                                    the royal family during the Joseon dynasty. Carrying the meaning of “a place where
+                                    the new king can enjoy prosperity of great blessings,” this was the first palace
+                                    built during the Joseon dynasty. The palace is unique for its layout of buildings
+                                    over a vast area, and is the only palace to have all four major gates still
+                                    remaining to this day.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade rounded p-4 h-100" id="korea-pills-2" role="tabpanel" aria-labelledby="korea-pills-tab-2">
+                        <h4 class="text-dark px-2 pb-5"><span class="bg-dark text-white px-2">Bukchon Hanok</span>  Village</h4>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-8">
+                                <img src="assets/photo-2.jpg" alt="highlights2" class="w-100 rounded img-thumbnail">
+                            </div>
+                            <div class="col-md-12 col-lg-4 m-lg-0 m-3">
+                                <p class="text-dark font-italic">A representative attraction of Seoul, Bukchon Hanok
+                                    Village shows the charm of Korea’s traditional buildings. Previously being the
+                                    neighborhood where relatives of the royal family lived, the hanok here are grand,
+                                    providing beautiful scenes down every lane.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade rounded p-4 h-100" id="korea-pills-3" role="tabpanel" aria-labelledby="korea-pills-tab-3">
+                        <h4 class="text-dark px-2 pb-5"><span class="bg-dark text-white px-2">Myeongdong</span> Street</h4>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-8">
+                                <img src="assets/photo-3.jpg" alt="highlights3" class="w-100 rounded img-thumbnail">
+                            </div>
+                            <div class="col-md-12 col-lg-4 m-lg-0 m-3">
+                                <p class="text-dark font-italic"> The area of Myeong-dong is filled with unique street
+                                    foods and plenty of things to see! A district of fashion and shopping, many young
+                                    Koreans and international tourists seek out great deals and the latest trends. The
+                                    streets are lined with department stores, duty free stores, and various brand shops.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade rounded p-4 h-100" id="korea-pills-4" role="tabpanel" aria-labelledby="korea-pills-tab-4">
+                        <h4 class="text-dark px-2 pb-5"><span class="bg-dark text-white px-2">Seongsan</span> "Sunrise Peak"</h4>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-8">
+                                <img src="assets/photo-4.jpg" alt="highlights4" class="w-100 rounded img-thumbnail">
+                            </div>
+                            <div class="col-md-12 col-lg-4 m-lg-0 m-3">
+                                <p class="text-dark font-italic"> Known as the “Sunrise Peak”, this 180 meters UNESCO
+                                    World Heritage Site is great if you are looking to capture the perfect Korean
+                                    sunrise photo. Seongsan Ilchulbong is actually an extinct volcano formed out of
+                                    an eruption some 10,000 years ago.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade rounded p-4 h-100" id="korea-pills-5" role="tabpanel" aria-labelledby="korea-pills-tab-5">
+                        <h4 class="text-dark px-2 pb-5"><span class="bg-dark text-white px-2">Namsan</span> Seoul Tower</h4>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-8">
+                                <img src="assets/photo-5.jpg" alt="highlights5" class="w-100 rounded img-thumbnail">
+                            </div>
+                            <div class="col-md-12 col-lg-4 m-lg-0 m-3">
+                                <p class="text-dark font-italic"> Seoul’s landmark attraction is none other than Namsan
+                                    Seoul Tower, located atop Namsan Mountain in the center of the city. The tower
+                                    draws in visitors year-round, and is most famous for its nightscape view of the city.
+                                    The tower features not only an observation deck, but also atmospheric cafés and
+                                    restaurants among other facilities.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade rounded p-4 h-100" id="korea-pills-6" role="tabpanel" aria-labelledby="korea-pills-tab-6">
+                        <h4 class="text-dark px-2 pb-5"><span class="bg-dark text-white px-2">Busan</span> city</h4>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-8">
+                                <img src="assets/photo-6.jpg" alt="highlights6" class="w-100 rounded img-thumbnail">
+                            </div>
+                            <div class="col-md-12 col-lg-4 m-lg-0 m-3">
+                                <p class="text-dark font-italic"> Home to majestic mountains, glistening beaches,
+                                    steaming hot springs and fantastic seafood, South Korea’s second-largest city is
+                                    a rollicking port town with tonnes to offer. From casual tent bars and chic designer
+                                    cafes to fish markets teeming with every species imaginable, Busan has something for
+                                    all tastes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Popular food and drinks -->
+
+<section id="food-drinks" class="food-drinks bg-dark p-5">
+    <div class="container">
+        <div class="card-deck">
+            <div class="card pb-5 my-sm-3">
+                <img class="card-img-top border" src="./assets/food-1.jpg" alt="samgyetang">
+                <div class="card-body">
+                    <h4 class="card-title">Samgyetang</h4>
+                    <p class="card-text small">A common dish particularly during the summer, samgyetang is a traditional soup
+                        made of chicken, garlic, rice, scallion, Korean jujube, Korean ginseng, and spices. It is known
+                        to have a high nutritional value. Not only is it known for its healthy contents but it also is
+                        popular simply for its creamy and meaty flavor.</p>
+                    <div class="heart m-n3"></div>
+                </div>
+            </div>
+            <div class="card pb-5 my-sm-3">
+                <img class="card-img-top border" src="./assets/food-2.jpg" alt="bibimbap">
+                <div class="card-body">
+                    <h4 class="card-title">Bibimbap</h4>
+                    <p class="card-text small">Bibimbap is essentially a bowl of mixed ingredients including, but not limited
+                        to, rice, namul (seasoned and sautéed vegetables), mushrooms, beef, soy sauce, gochujang (chili
+                        pepper paste), and a fried egg. The ingredients found in bibimbap vary by region, and the most
+                        famous versions of the dish are found in Jeonju, Tongyeong, and Jinju.</p>
+                    <div class="heart m-n3"></div>
+                </div>
+            </div>
+            <div class="card pb-5 my-sm-3">
+                <img class="card-img-top border" src="./assets/food-3.jpg" alt="kimchi">
+                <div class="card-body">
+                    <h4 class="card-title">Kimchi (fermented vegetables)</h4>
+                    <p class="card-text small">One of the oldest and probably the most essential dishes in Korean cuisine,
+                        kimchi is a spicy and sour dish made up of fermented vegetables. It is prepared with various
+                        kinds of ingredients, but the most common main ingredient is cabbage. Kimchi is popular among
+                        foreigners for its unique flavor, as well as its high nutritional value, fiber content and low
+                        calorie content. However, for Koreans, it is most popular due to its significant cultural value.
+                        Without kimchi, dinner is considered incomplete.</p>
+                    <div class="heart m-n3"></div>
+                </div>
+            </div>
+            <div class="card pb-5 my-sm-3">
+                <img class="card-img-top border" src="./assets/food-4.jpeg" alt="japchae">
+                <div class="card-body">
+                    <h4 class="card-title">Japchae (stir-fried noodles)</h4>
+                    <p class="card-text small">Often served as a side dish during lunch or dinner, japchae is a traditional
+                        Korean noodle dish made up of stir-fried sweet potato, thinly shredded vegetables, beef, and
+                        a hint of soy sauce and sugar. Depending on the chef, additional ingredients like mushrooms are
+                        added to the mix. Japchae is known for its sweet and flavorful taste and its soft yet slightly
+                        chewy texture.</p>
+                    <div class="heart m-n3"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-deck mt-5">
+            <div class="card pb-5 my-sm-3">
+                <img class="card-img-top border" src="./assets/drink-1.jpg" alt="sikye">
+                <div class="card-body">
+                    <h4 class="card-title">Sikye</h4>
+                    <p class="card-text small">Sikye is a traditional Korean rice drink that’s as sweet as it is
+                        traditional – so sweet, in fact, that it’s often served as a dessert! This Korean drink
+                        contains cooked rice, which gives it an interesting texture as you get to the bottom, and has
+                        been served in Korean for centuries as a traditional end to a meal.</p>
+                    <div class="heart m-n3"></div>
+                </div>
+            </div>
+            <div class="card pb-5 my-sm-3">
+                <img class="card-img-top border" src="./assets/drink-2.jpg" alt="soju">
+                <div class="card-body">
+                    <h4 class="card-title">Soju</h4>
+                    <p class="card-text small">Korean soju is distilled from fermented rice, or optionally wheat, barley,
+                        sweet potatoes, or tapioca. It is usually enjoyed well-chilled, served in small traditional
+                        glasses, but Koreans also prefer to drop a shot of soju in beer. Apart from the classic type,
+                        it also comes in many fruit-flavored versions.</p>
+                    <div class="heart m-n3"></div>
+                </div>
+            </div>
+            <div class="card pb-5 my-sm-3">
+                <img class="card-img-top border" src="./assets/drink-3.jpg" alt="makgeolli">
+                <div class="card-body">
+                    <h4 class="card-title">Makgeolli</h4>
+                    <p class="card-text small">Makgeolli is the oldest Korean liquor that dates back to the 10th century.
+                        It is usually made from rice which is fermented with nuruk—traditional Korean starter.
+                        The fermentation process produces a lightly fizzy drink with a typical milky appearance and
+                        a slightly sweet flavor.</p>
+                    <div class="heart m-n3"></div>
+                </div>
+            </div>
+            <div class="card pb-5 my-sm-3">
+                <img class="card-img-top border" src="./assets/drink-4.jpg" alt="ginseang-tea">
+                <div class="card-body">
+                    <h4 class="card-title">Ginseang tea</h4>
+                    <p class="card-text small">Ginseng tea is a traditional Korean tea made with ginseng. While it is
+                        called a tea, ginseng tea does not contain tea leaves. It is a herbal tea infusion made out of
+                        the ginseng plant's root. In Korea ginseng tea is far more than a drink. The Korean culture has
+                        a long history of treating food and drink as medicine; spices and herbs are regularly used to
+                        treat sickness and ailments.</p>
+                    <div class="heart m-n3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Interesting facts -->
+
+<section id="interesting-facts" class="interesting bg-white">
+    <div class="container bg-light shadow border my-5">
+        <div id="interesting" class="carousel slide" data-ride="carousel">
+            <h4 class="text-dark p-4 display-4"><span class="bg-dark text-white px-2">Did you</span> know?</h4>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active p-4">
+                    <p> Children born in South Korea are considered “one year old” when they are born, and will turn two
+                        on the next Lunar New Year. 100 days after their birth, a celebration is held for the baby.</p>
+                </div>
+            <div class="carousel-item p-4">
+                    <p>South Korea is the world leader in internet connectivity. Approximately 92% of the country’s
+                        population are internet users, and they boast the world’s fastest average connection speed.</p>
+                </div>
+                <div class="carousel-item p-4">
+                    <p>Taekwondo is the national sport of South Korea. It’s believed to have been invented approximately
+                        2,000 years ago.</p>
+                </div>
+                <div class="carousel-item p-4">
+                    <p>Lotte World, a major recreation center in Seoul, is home to one of the largest indoor theme parks
+                        in the world, as well as an outdoor amusement park, an artificial island connected by monorail,
+                        shopping malls, museums, and more.</p>
+                </div>
+                <div class="carousel-item p-4">
+                    <p>Red ink is considered bad luck in South Korea. Writing a person’s name in the color signifies
+                        the person is dead, or will die soon.</p>
+                </div>
+                <div class="carousel-item p-4">
+                    <p>The number 4 is considered bad luck as it is written the same way as the Chinese character for
+                        death. The number is often replaced with the letter “F,” such as when using an elevator.</p>
+                </div>
+                <div class="carousel-item p-4">
+                    <p>“Have you eaten well?” is a common greeting in South Korea, used the way an American may ask
+                        “How are you?”</p>
+                </div>
+                <div class="carousel-item p-4">
+                    <p>Teaching is one of the most prestigious and well-paying jobs in the country. On average, teachers
+                        make $2,500 per month with teachers at private schools and universities making more.</p>
+                </div>
+                <div class="carousel-item p-4">
+                    <p>South Korean students are required to take a university entrance exam known as the sooneung. On
+                        the morning of the test, friends and family gather at high schools to give out candy and wish
+                        students good luck.</p>
+                </div>
+                <div class="carousel-item p-4">
+                    <p>It is a law in South Korea that online banking and shopping must be done through Internet Explorer.</p>
+                </div>
+                <div class="carousel-item p-4">
+                    <p>The world’s first astronomical lab, Cheomseongdae Observatory, is located in South Korea. It was
+                        built in the mid-600s.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Numbers/info -->
+
+<section id="numbers" class="numbers parallax shadow border border-dark">
+    <div class="container my-5">
+        <div class="row">
+            <div class="numbers-col my-2 col-sm-6 col-md-3 d-flex flex-column align-items-center">
+                <i class="fas fa-users text-white my-5"></i>
+                <h5 class="text-white my-2">Population</h5>
+                <span class="text-white small">51,709,098</span>
+            </div>
+            <div class="numbers-col my-2 col-sm-6 col-md-3 d-flex flex-column align-items-center">
+                <i class="fas fa-praying-hands text-white my-5"></i>
+                <h5 class="text-white my-2">Religion</h5>
+                <span class="text-white small">56.1% No religion</span>
+                <span class="text-white small">27.6% Christianity</span>
+                <span class="text-white small">15.5% Korean Buddhism</span>
+            </div>
+            <div class="numbers-col my-2 col-sm-6 col-md-3 d-flex flex-column align-items-center">
+                <i class="fas fa-map-marker-alt text-white my-5"></i>
+                <h5 class="text-white my-2">Area</h5>
+                <span class="text-white small">100,363 km2</span>
+            </div>
+            <div class="numbers-col my-2 col-sm-6 col-md-3 d-flex flex-column align-items-center">
+                <i class="fas fa-won-sign text-white my-5"></i>
+                <h5 class="text-white my-2">Currency</h5>
+                <span class="text-white small">Korean Republic won</span>
+                <span class="text-white small">(₩) KRW</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Entertainment -->
+
+<section id="entertainment" class="entertainment bg-white py-5">
+    <div class="container">
+
+        <div class="row bg-light shadow border my-5 position-relative">
+            <span class="tab text-white bg-dark p-2 rounded-top shadow small text-uppercase text-center">14 June 2020</span>
+            <div class="entertainment-img col-4 px-0">
+                <img src="./assets/music-1.jpg" alt="entertainment-1" class="w-100">
+                <strong class="small text-center px-5">One of the most popular k-pop bands - Monsta X.</strong>
+            </div>
+            <div class="entertainment-img col-4 px-0">
+                <img src="./assets/music-2.jpg" alt="entertainment-1" class="w-100">
+                <strong class="small text-center px-5">Musician playing a komungo, a type of Korean zither with six strings.</strong>
+            </div>
+            <div class="entertainment-img col-4 px-0">
+                <img src="./assets/music-3.jpg" alt="entertainment-1" class="w-100">
+                <strong class="small text-center px-5">Buchaechoom is one of the most popular Korean
+                    traditional dances performed around the world. Using fans painted with peony blossoms, female dancers
+                    in hanboks (the traditional Korean dress) mimic flowers, butterflies, and waves.</strong>
+            </div>
+            <div class="col-12 px-5 py-2">
+                <h4 class="text-dark py-2">Discovering South Korea through the music <span class="badge badge-pill badge-danger mx-2 px-3">music</span></h4>
+                <p class="small">The Music of South Korea has evolved over the course of the decades since the end of the Korean War,
+                    and has its roots in the music of the Korean people, who have inhabited the Korean peninsula for
+                    over a millennium. Contemporary South Korean music can be divided into three different main
+                    categories: Traditional Korean folk music, popular music, or K-pop, and Western-influenced
+                    non-popular music. Traditional Korean music is referred to as gugak (Hangul: 국악), which literally
+                    means "national music", meanwhile the popular Korean music, typically referred to as K-pop in
+                    English, or gayo (가요) in Korean, is a highly commercial industry throughout Asia.</p>
+                <button type="button" class="btn btn-info btn-sm my-3">Read more...</button>
+            </div>
+        </div>
+
+        <div class="row bg-light shadow border my-5 position-relative">
+            <span class="tab text-white bg-dark p-2 rounded-top shadow small text-uppercase text-center">4 April 2020</span>
+            <div class="entertainment-img col-4 px-0">
+                <img src="./assets/sport-1.jpg" alt="entertainment-1" class="w-100">
+                <strong class="small text-center px-5">Soccer is one of Korea’s most popular sports. The K League
+                    (Korea Professional Football League) runs from March to November each year, with fierce competition
+                    among 12 regional teams.</strong>
+            </div>
+            <div class="entertainment-img col-4 px-0">
+                <img src="./assets/sport-2.png" alt="entertainment-1" class="w-100">
+                <strong class="small text-center px-5">South Korea supporters wave the national flag in Russia during the
+                    2018 World Cup.</strong>
+            </div>
+            <div class="entertainment-img col-4 px-0">
+                <img src="./assets/sport-3.jpg" alt="entertainment-1" class="w-100">
+                <strong class="small text-center px-5">Four South Korean taekwondo fighters.</strong>
+            </div>
+            <div class="col-12 px-5 py-2">
+                <h4 class="text-dark py-2">Traditional Korean sports and games <span class="badge badge-pill badge-danger mx-2 px-3">sport</span></h4>
+                <p class="small">South Korea has traditional sports of its own, as well as sports from different cultures
+                    and countries. Korea’s biggest contribution to the world of sports is taekwondo. It is the most
+                    recognizable Korean sport and features some of the most beautiful moves in the world of martial arts.
+                    It has been said that while most martial arts can be compared to grasshoppers and bees,
+                    taekwondo is more like a butterfly because of the grace involved in each move.  But South Korea is
+                    slowly getting westernized in many aspects and that includes sports. Most South Koreans enjoy
+                    football and baseball. Some of their more traditional sports include bull fighting, wrestling and
+                    kite flying.</p>
+                <button type="button" class="btn btn-info btn-sm my-3">Read more...</button>
+            </div>
+        </div>
+
+        <div class="row bg-light shadow border my-5 position-relative">
+            <span class="tab text-white bg-dark p-2 rounded-top shadow small text-uppercase text-center">23 January 2020</span>
+            <div class="entertainment-img col-4 px-0">
+                <img src="./assets/entertainment-1.jpg" alt="entertainment-1" class="w-100">
+                <strong class="small text-center px-5">The Yeon Deung Hoe (Lotus Lantern Festival) is an annual event
+                    that colors Korea with bright lanterns in celebration of the birth of Buddha.</strong>
+            </div>
+            <div class="entertainment-img col-4 px-0">
+                <img src="./assets/entertainment-2.jpg" alt="entertainment-1" class="w-100">
+                <strong class="small text-center px-5">Hanbok, the traditional attire of the Korean people, has a
+                    history as colorful as the garments themselves. Worn daily up until about a century ago, the
+                    hanbok remains an important icon of Korea, and is still donned on special occasions and holidays.</strong>
+            </div>
+            <div class="entertainment-img col-4 px-0">
+                <img src="./assets/entertainment-3.jpg" alt="entertainment-1" class="w-100">
+                <strong class="small text-center px-5">Andong International Maskdance Festival is held around the end of
+                    September each year. Visitors not only explore Andong Hahoe, a beautiful folk village in the
+                    countryside, but they also get to see colourful array of national and international mask dance troupes.</strong>
+            </div>
+            <div class="col-12 px-5 py-2">
+                <h4 class="text-dark py-2">Famous Korean Festivals <span class="badge badge-pill badge-danger mx-2 px-3">holidays</span> </h4>
+                <p class="small">Despite South Korea’s rapid modernization, there are still plenty of ways to learn about
+                    the country’s rich history, colorful culture, and unique traditions. Perhaps no way is better than
+                    attending a festival, of which there are many throughout the year. From an internationally renowned
+                    mud festival to lesser-known gatherings that commemorate nature, food, historical events or the
+                    changing of the seasons, there’s never a lack of celebrations in this highly diverse country.</p>
+                <button type="button" class="btn btn-info btn-sm my-3">Read more...</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Newsletter -->
+
+<section id="newsletter" class="newsletter parallax bg-dark py-5 shadow border border-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 d-flex flex-column align-items-center align-items-lg-start px-2 my-5 my-lg-0">
+                <h2 class="display-4">
+                    <small class="bg-dark text-white px-2">Want to</small> <br>
+                    <span class="bg-light text-dark px-2"> know more?</span>
+                </h2>
+                <small class="decoration-text w-50 text-white">Subscribe to our newsletter and receive
+                    the recent news about South Korea.</small>
+            </div>
+            <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center position-relative">
+                <form class="d-flex w-100 justify-content-center needs-validation position-relative" novalidate>
+                    <div class="form-group m-0 d-flex w-75">
+                        <label for="email"></label>
+                        <input type="email" class="form-control rounded-0 shadow w-100 border text-uppercase"
+                               placeholder="enter your email address" id="email" required>
+                    </div>
+                    <button type="submit" class="btn btn-danger btn-sm text-uppercase rounded-0">Send</button>
+                </form>
+                <div class="newsletter-alert alert alert-success position-absolute fade text-uppercase small p-1 p-lg-3">
+                    <strong>Thank you! </strong> Your email address has been added to our newsletter base.
+                </div>
+                <div class="newsletter-alert alert alert-danger position-absolute fade text-uppercase small p-1 p-lg-3">
+                    <strong>Wrong email! </strong> Please try again.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+
+<footer class="bg-dark text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-5 my-5 px-5">
+                <h4 class="font-italic"> <span class="bg-light text-dark px-2"> Discover</span> Korea</h4>
+                <p class="small w-75 my-4">Experience the extraordinary atmosphere of South Korea,
+                    a beautiful country, whose landscapes enchant with incomparable beauty, an unique cuisine surprises with
+                    original flavours and cities attracts tourist from all over the world.</p>
+                <div class="icons d-flex align-items-center">
+                    <a href="http://facebook.pl/" class="text-white">
+                        <i class="fab fa-facebook mx-3"></i>
+                    </a>
+                    <a href="http://instagram.com/" class="text-white">
+                        <i class="fab fa-instagram mx-3"></i>
+                    </a>
+                    <a href="http://twitter.com/" class="text-white">
+                        <i class="fab fa-twitter mx-3"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 my-5 px-5 px-sm-0 px-xl-3">
+                <h4 class="font-italic text-uppercase">Instagram</h4>
+                <div class="ig-images d-flex flex-wrap my-4 ">
+                    <div class="col-6 p-0">
+                        <a href="#">
+                            <img src="./assets/ig-1.jpg" alt="instagram-1">
+                        </a>
+                    </div>
+                    <div class="col-6 p-0">
+                        <a href="#">
+                            <img src="./assets/ig-2.jpg" alt="instagram-2">
+                        </a>
+                    </div>
+                    <div class="col-6 p-0">
+                        <a href="#">
+                            <img src="./assets/ig-3.jpg" alt="instagram-3">
+                        </a>
+                    </div>
+                    <div class="col-6 p-0">
+                        <a href="#">
+                            <img src="./assets/ig-4.jpg" alt="instagram-4">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 my-5 px-5">
+                <h4 class="font-italic text-uppercase">Navigation</h4>
+                <ul class="list-unstyled my-4 scrollNav">
+                    <li class="small py-2">
+                        <a href="#highlights" class="text-white link">Highlights</a>
+                    </li>
+                    <li class="small py-2">
+                        <a href="#food-drinks" class="text-white link">Popular food & drinks</a>
+                    </li>
+                    <li class="small py-2">
+                        <a href="#interesting-facts" class="text-white link">Interesting facts</a>
+                    </li>
+                    <li class="small py-2">
+                        <a href="#numbers" class="text-white link">Korea in numbers</a>
+                    </li>
+                    <li class="small py-2">
+                        <a href="#entertainment" class="text-white link">Blog</a>
+                    </li>
+                    <li class="small py-2">
+                        <a href="#newsletter" class="text-white link">Newsletter</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
